@@ -6,7 +6,6 @@ export default function Articles() {
   return (
     <>
       <div className=" flex items-center justify-center flex-col">
-        xcxc
         <div className="py-10">
           {articles.map((data) => {
             return (
