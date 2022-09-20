@@ -1,0 +1,42 @@
+.code {
+  font-size: 40px;
+  position: relative;
+}
+.code span {
+  color: red;
+}
+
+#manul {
+  width: 150px;
+  visibility: hidden;
+}
+
+.code::before,
+.code::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.code::before {
+  border-radius: 5px;
+  background-color: #c7ffff;
+  animation: typewriter 3s steps(80) 500ms forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

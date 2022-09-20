@@ -1,0 +1,47 @@
+.form {
+  font-size: 1.2rem;
+  width: 35rem;
+}
+.form .form-input,
+textarea {
+  border-radius: 5px;
+  padding: 7px 10px;
+  margin: 0.5rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.39);
+  color: #2d2a29;
+}
+.form label {
+  margin-top: 1.5rem;
+}
+textarea {
+  height: 10rem;
+}
+.form input:focus,
+textarea:focus {
+  background-color: rgb(231, 255, 231);
+  outline: green;
+}
+
+.submitBtn input,
+.sent {
+  width: 10rem;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.4rem 0;
+}
+
+@media (max-width: 600px) {
+  .socialN {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .socialN .social {
+    width: 2rem;
+    margin: 0 5px;
+  }
+  .social {
+    font-size: 2rem;
+    padding: 0.5rem 0rem;
+  }
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": 10,
+    "link": "https://medium.com/@kamran.tahmazbayli/what-is-the-impact-of-indexes-as-keys-4057217ca3e4",
+    "title": "What is the impact of indexes as keys?",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/739px-Badge_js-strict.svg.png",
+    "desc": "Keys should be stable, predictable, and unique so that React can keep track of elements."
+  },
+  {
+    "id": 11,
+    "link": "https://medium.com/@kamran.tahmazbayli/how-to-use-innerhtml-in-react-f7e74524b5b",
+    "title": "How to use innerHTML in React?",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    "desc": "The dangerouslySetInnerHTML attribute is React’s replacement for using innerHTML in the browser DOM."
+  },
+
+  {
+    "id": 12,
+    "link": "https://medium.com/@kamran.tahmazbayli/what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements-in-react-fcecbe850632",
+    "title": "What is the benefit of using it in arrays of elements in REACT?",
+    "logo": " https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    "desc": "A key is a special string attribute you should include when creating arrays of elements."
+  },
+
+  {
+    "id": 13,
+    "link": "https://medium.com/@kamran.tahmazbayli/what-is-promise-chaining-8239b780f821",
+    "title": "What is promise chaining?",
+    "logo": " https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/739px-Badge_js-strict.svg.png",
+    "desc": "The process of executing a sequence of asynchronous tasks one after another using promises is known as Promise chaining"
+  },
+  {
+    "id": 14,
+    "link": "https://medium.com/@kamran.tahmazbayli/what-are-closures-6a09a76c194c",
+    "title": "What are closures?",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/739px-Badge_js-strict.svg.png",
+    "desc": "A closure is the combination of a function and the lexical environment within which that function was declared. "
+  },
+  {
+    "id": 15,
+    "link": "https://medium.com/@kamran.tahmazbayli/is-tailwind-safe-652e88956d52",
+    "title": "Is Tailwind Safe?",
+    "logo": " https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
+    "desc": "I can describe what the pros and cons of their website features."
+  },
+  {
+    "id": 16,
+    "link": "https://medium.com/@kamran.tahmazbayli/what-are-the-possible-ways-to-create-objects-in-javascript-adbbef921b23",
+    "title": "What are the Possible Ways to Create Objects in JavaScript?",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/739px-Badge_js-strict.svg.png",
+    "desc": "There are many ways to create objects in javascript as below Object constructor: "
+  },
+  {
+    "id": 17,
+    "link": "https://medium.com/@kamran.tahmazbayli/what-is-the-difference-between-and-operators-e058884f2339",
+    "title": "What is the difference between == and === operators?",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/739px-Badge_js-strict.svg.png",
+    "desc": "JavaScript provides both strict(===, !==) and type-converting(==, !=) equality comparison"
+  }
+]

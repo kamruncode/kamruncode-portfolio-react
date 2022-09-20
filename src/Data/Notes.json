@@ -1,0 +1,46 @@
+[
+  {
+    "id": 120,
+    "time": "40 min",
+    "title": "Read 1 article per day from javascript.info",
+    "desc": "code quality , objects , data types , working with functions , async/await"
+  },
+  {
+    "id": 112,
+    "time": "50 min",
+    "title": "Watch difference youtube chaneles & practice",
+    "desc": "Kevin Powell (CSS) , Clever Programmer (REACT) , freeCodeCamp.org (JS)"
+  },
+
+  {
+    "id": 223,
+    "time": "20 min",
+    "title": "Do differences JS quizes from Linkedin groupes",
+    "desc": "'React JS' , 'UI & Full Stack Developers' , 'Javascript Daily'"
+  },
+
+  {
+    "id": 334,
+    "time": "20 min",
+    "title": "Follow new and usefull posts about React & JS in Twitter",
+    "desc": "Moshfegh Hamedani , Well Paid Geek ,  Saurav Purohit , JavaScript FAN"
+  },
+  {
+    "id": 453,
+    "time": "3 hours",
+    "title": "Do practice coding per day",
+    "desc": "differences popular clones , to try writing with typescript"
+  },
+  {
+    "id": 512,
+    "time": "35 min",
+    "title": "Browse differences CSS frameworkes",
+    "desc": "Mantine dev , Chakra UI , Ant Design , Tailwind CSS , Bootstrap , Material UI"
+  },
+  {
+    "id": 623,
+    "time": "25 min",
+    "title": "Interested in the blogs of experienced developers",
+    "desc": "Codrops , David Walsh , John Papa , The Haystack , Position Absolute , Superhero.js"
+  }
+]
