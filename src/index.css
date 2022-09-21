@@ -10,8 +10,11 @@
   body {
     max-width: 600px;
   }
-}
 
+  .media {
+    opacity: 1;
+  }
+}
 * {
   font-family: Imported;
 }

@@ -7,11 +7,11 @@ export default function Articles() {
   return (
     <>
       <div className=" flex items-center justify-center flex-col">
-        <p className=" flex items-center">
+        <p className="media flex items-center opacity-0">
           <p className=" text-3xl">my articles</p>
           <BsFillBookmarkStarFill className=" ml-1 text-xl" />
         </p>
-        <div className="py-10">
+        <div className="py-8">
           {articles.map((data) => {
             return (
               <>

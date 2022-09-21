@@ -1,15 +1,18 @@
 import React from "react";
 import MyExEd from "../assets/ExEdContainer";
 import notes from "../Data/Notes.json";
-import { AiOutlineRightCircle } from "react-icons/ai";
+import { MdOutlineSpeakerNotes } from "react-icons/md";
 import { ImClock } from "react-icons/im";
 import hash from "./hash.png";
-import second from "../components/profile.png";
 export function Notes() {
   return (
     <>
       <div className=" flex items-center justify-center flex-col">
-        <div className="py-10">
+        <p className="media flex  items-center opacity-0 text-3xl">
+          <p>my notes</p>
+          <MdOutlineSpeakerNotes className=" ml-1" />
+        </p>
+        <div className="py-8">
           {notes.map((data) => {
             return (
               <>
