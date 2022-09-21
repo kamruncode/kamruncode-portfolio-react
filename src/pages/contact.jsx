@@ -68,7 +68,7 @@ export const ContactUs = () => {
       icon: <BsPinterest />,
     },
     { id: 7, link: "https://github.com/kamruncode", icon: <BsGithub /> },
-    { id: 8, link: "https://twitter.com/kamruncode", icon: <FaTwitter /> },
+
     { id: 9, link: "https://codepen.io/kamruncode", icon: <FaCodepen /> },
     {
       id: 10,

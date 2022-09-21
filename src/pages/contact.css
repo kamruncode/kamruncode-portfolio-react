@@ -36,12 +36,10 @@ textarea:focus {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .socialN .social {
-    width: 2rem;
-    margin: 0 5px;
-  }
-  .social {
-    font-size: 2rem;
-    padding: 0.5rem 0rem;
+
+  .socialN {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
   }
 }
