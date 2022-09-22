@@ -2,6 +2,7 @@ import profile from "./profile.png";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+
 export const Navbar = (props) => {
   const [showNav, setShowNav] = useState(false);
 
@@ -14,7 +15,7 @@ export const Navbar = (props) => {
       <div className="topnav"></div>
       <section className="navbar pt-4 mb-10 flex justify-around">
         <div className=" w-full flex items-center justify-center">
-          <div className=" profile flex items-center justify-between">
+          <div className=" profile flex items-end ">
             <img src={profile} className="h-20" />
           </div>
 
@@ -22,7 +23,7 @@ export const Navbar = (props) => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive && "outline rounded outline-pink-500 transition-shadow"
+                isActive && "border-b-2 hover:translate-y-1 duration-500"
               }
             >
               <li className="mx-10 ">ME</li>
@@ -30,8 +31,7 @@ export const Navbar = (props) => {
             <NavLink
               to="/articles"
               className={({ isActive }) =>
-                isActive &&
-                "outline rounded outline-cyan-400 hover:translate-y-1 hover:scale-70 duration-100"
+                isActive && " border-b-2 hover:translate-y-1 duration-500"
               }
             >
               <li className="mx-5">Articles</li>
@@ -39,8 +39,7 @@ export const Navbar = (props) => {
             <NavLink
               to="/notes"
               className={({ isActive }) =>
-                isActive &&
-                "outline rounded outline-cyan-400 hover:translate-y-1 duration-100"
+                isActive && "border-b-2 hover:translate-y-1 duration-500"
               }
             >
               <li className="mx-5">Notes</li>
@@ -49,8 +48,7 @@ export const Navbar = (props) => {
             <NavLink
               to="/contact"
               className={({ isActive }) =>
-                isActive &&
-                "outline rounded outline-cyan-400 hover:translate-y-1 hover:scale-70 duration-100"
+                isActive && " border-b-2 hover:translate-y-1 duration-500"
               }
             >
               <li className="mx-5">Contact</li>

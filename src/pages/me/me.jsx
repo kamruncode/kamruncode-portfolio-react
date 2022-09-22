@@ -1,18 +1,27 @@
 import "./me.css";
 import MyExEd from "../../assets/ExEdContainer";
 import { ImClock, ImCalendar, ImLocation } from "react-icons/im";
+import { FiDownload } from "react-icons/fi";
 import WorkData from "../../Data/WorkExp.json";
 import EduData from "../../Data/Education.json";
 import Logos from "../../Data/Logos.json";
 export const AboutMe = () => {
   return (
     <>
-      <div className=" flex items-center justify-center text-5xl">
-        <div className="font-semibold">
+      <div className=" flex flex-col items-center justify-between h-[7rem] ">
+        <div className="font-semibold text-5xl">
           <p className="code">
             kam<span>RUN</span>code.com
           </p>
         </div>
+        <a
+          href="kamranCV.pdf"
+          download="kamranCV.pdf"
+          className="flex items-center  text-2xl py-1 px-3 hover:text-sky-500"
+        >
+          <strong> CV </strong>
+          <FiDownload />
+        </a>
       </div>
       <div className=" flex items-center justify-center ">
         <p className=" p-1 py-20 text-center text-xl font-semibold">
