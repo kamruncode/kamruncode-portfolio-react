@@ -11,7 +11,7 @@ export const AboutMe = () => {
       <div className=" flex flex-col items-center justify-between h-[7rem] ">
         <div className="font-semibold text-5xl">
           <p className="code">
-            kam<span>RUN</span>code.com
+            kam<span>RUN</span>code
           </p>
         </div>
         <a
