@@ -36,7 +36,7 @@ export const AboutMe = () => {
         <div className="  py-10">
           <div className="skill">
             <p className="text-2xl	text-center my-10 font-bold">
-              PROGRAMMING SKILLS
+              FRONTEND IT SKILLS
             </p>
             <div className="grid grid-cols-3 gap-4 place-items-center  my-20">
               {Logos.map((logo, i) => {
