@@ -36,13 +36,7 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/739px-Badge_js-strict.svg.png",
     "desc": "A closure is the combination of a function and the lexical environment within which that function was declared. "
   },
-  {
-    "id": 15,
-    "link": "https://medium.com/@kamran.tahmazbayli/is-tailwind-safe-652e88956d52",
-    "title": "Is Tailwind Safe?",
-    "logo": " https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
-    "desc": "I can describe what the pros and cons of their website features."
-  },
+
   {
     "id": 16,
     "link": "https://medium.com/@kamran.tahmazbayli/what-are-the-possible-ways-to-create-objects-in-javascript-adbbef921b23",
