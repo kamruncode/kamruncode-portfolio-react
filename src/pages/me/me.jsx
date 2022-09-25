@@ -15,8 +15,8 @@ export const AboutMe = () => {
           </p>
         </div>
         <a
-          href="kamranCV.pdf"
-          download="kamranCV.pdf"
+          href="Kamran Tahmazbayli CV Resume.pdf"
+          download="Kamran Tahmazbayli CV Resume.pdf"
           className="flex items-center  text-2xl py-1 px-3 hover:text-sky-500"
         >
           <strong> CV </strong>
